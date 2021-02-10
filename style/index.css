@@ -1,0 +1,223 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ebebeb;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  background-color: #292929;
+  height: 8vh;
+  margin: 0;
+  padding-top: 1vh;
+}
+
+header p {
+  color: white;
+  font-size: 3em;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 10vw;
+}
+
+#welcome {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #292929;
+  z-index: 50;
+}
+
+#welcome div {
+  position: relative;
+  top: 14.65vh;
+  left: -34.65vh;
+  width: 68vh;
+  height: 68vh;
+  z-index: 51;
+  background-color: white;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+#welcome span {
+  color: white;
+  position: relative;
+  left: 50vh;
+  top: -40vh;
+  font-size: 3em;
+  font-weight: 900;
+}
+
+#welcome span h1 {
+  margin-bottom: 10vh;
+}
+
+.game {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.game .divImg {
+  width: 40%;
+}
+
+.game .divImg img {
+  width: 50%;
+  margin: 0 25%;
+}
+
+.game article {
+  width: 40%;
+  position: absolute;
+  right: -1em;
+  padding: 1em;
+  background-color: white;
+  border-radius: 10px;
+  padding-right: 5em;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.game article .resume {
+  width: 100%;
+  background: #111;
+  padding: 1em;
+  color: #eee;
+  font-size: 0.5em;
+  height: 20vh;
+  line-height: 1;
+  text-shadow: 0.06rem 0 0.06rem #ea36af, -0.125rem 0 0.06rem #75fa69;
+  letter-spacing: 0.125em;
+  -webkit-animation-duration: 0.01s;
+          animation-duration: 0.01s;
+  -webkit-animation-name: textflicker;
+          animation-name: textflicker;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+.game article .resume h1 {
+  font-size: 5em;
+  margin: 0;
+}
+
+.game article .infoGame .hist {
+  position: relative;
+  font-size: x-large;
+  padding: 1em;
+  background-color: white;
+  border-radius: 10px;
+  width: 100%;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.game article .infoGame .hist p {
+  display: inline;
+  left: 0;
+}
+
+.game article .infoGame .hist span {
+  right: 0;
+}
+
+.game article .infoGame .rep {
+  margin: 3vh 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.game article .infoGame .rep span {
+  margin: 0 0.5vw;
+  font-size: 3em;
+}
+
+.game article .infoGame .st {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.game article .infoGame .st button {
+  width: 3em;
+  font-size: 2em;
+}
+
+.game article .infoGame .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+.but {
+  margin: 0.1em;
+  width: 1.3em;
+  height: 1.3em;
+  font-size: 3em;
+  text-align: center;
+  float: left;
+  border-radius: 10px;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #494949;
+  border-bottom: 5px solid #242424;
+  text-shadow: 0px -2px #242424;
+  transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+}
+
+.but:hover {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  border-bottom: 1px solid;
+}
+
+@-webkit-keyframes textflicker {
+  from {
+    text-shadow: 1px 0 0 #ea36af, -2px 0 0 #75fa69;
+  }
+  to {
+    text-shadow: 2px 0.5px 2px #ea36af, -1px -0.5px 2px #75fa69;
+  }
+}
+
+@keyframes textflicker {
+  from {
+    text-shadow: 1px 0 0 #ea36af, -2px 0 0 #75fa69;
+  }
+  to {
+    text-shadow: 2px 0.5px 2px #ea36af, -1px -0.5px 2px #75fa69;
+  }
+}
+/*# sourceMappingURL=index.css.map */

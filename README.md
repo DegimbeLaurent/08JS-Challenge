@@ -4,9 +4,6 @@ This 3 days project took place at the beginning of our training : 09-10-11 febru
 
 ## Who did the project 
 
-* [Daniel Goandete](https://github.com/DanielGoandete)
-* [Adrien Deceulaer](https://github.com/DeceulaerAdrien)
-* [Fredéric galoppin](https://github.com/fredgaloppin)
 * [Laurent Degimbe](https://github.com/DegimbeLaurent)
 
 ## What is that ?
